@@ -17,7 +17,7 @@ class Custom_Form_Plugin {
 
     // Enqueue scripts and styles
     public function enqueue_scripts() {
-        wp_enqueue_script('custom-form-script', plugin_dir_url(__FILE__) . 'js/custom-form-script.js', array('jquery'), '1.0', true);
+        wp_enqueue_script('custom-form-script', plugin_dir_url(__FILE__) . 'assets/js/custom-form-script.js', array('jquery'), '1.0', true);
     }
 
     // AJAX callback function
